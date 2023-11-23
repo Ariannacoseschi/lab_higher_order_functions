@@ -4,11 +4,18 @@ const printElement = (arrayElement) => {
   console.log(arrayElement);
 };
 
+// counting the number of Restaurants
+
+let count = 0;
+
  for (let i = 0; i < numbers.length; i++) {
     printElement(numbers[i]);
+    count++;
    }
 
-numbers.forEach(printElement);
+console.log("Number of restaurants", count)   
+
+//numbers.forEach(printElement);
 
 // mapping
 
